@@ -1,0 +1,15 @@
+#topLabel{
+    font-size: 48px;
+    background-color: #555555;
+}
+.form-row{
+    flex-direction: row;
+}
+
+.form-label {
+    flex: 1;
+}
+
+.form-editor {
+    flex: 3;
+}

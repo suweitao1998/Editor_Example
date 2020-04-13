@@ -1,0 +1,9 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="canvas">
+        <ui:VisualElement name="background" />
+        <ui:VisualElement name="square">
+            <ui:VisualElement name="content" />
+            <ui:VisualElement name="corner" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</UXML>

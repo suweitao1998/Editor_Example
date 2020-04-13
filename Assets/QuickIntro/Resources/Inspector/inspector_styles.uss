@@ -1,0 +1,11 @@
+#tank-name {
+    flex-grow: 1;
+}
+
+#tank-size {
+    width: 100px;
+}
+
+.unity-property-field__label {
+    display: none;
+}

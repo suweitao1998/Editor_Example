@@ -1,0 +1,8 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="row" class="container">
+        <Style path="Basics/basics_styles" />
+        <ui:Label text="Bound" />
+        <ue:PropertyField binding-path="tankName" name="tank-name" />
+        <ue:PropertyField binding-path="tankSize" name="tank-size" />
+    </ui:VisualElement>
+</UXML>

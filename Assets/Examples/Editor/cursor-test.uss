@@ -1,0 +1,168 @@
+#root
+{
+    width: 1000px;
+    height: 600px;
+}
+
+#root *
+{
+    font-size: 12px;
+    color: #ffffff;
+    -unity-text-align: upper-center;
+}
+
+#container
+{
+    flex: 1;
+    flex-direction: row;
+    background-color: #4D4B4B;
+}
+
+#cursor-test-element
+{
+    flex: 1;
+    background-color: #4D4B4B;
+}
+
+.cursortestcontent
+{
+    flex: 1;
+    background-color: #112160;
+    padding-top: 10px;
+}
+
+#header
+{
+    background-color: #393636;
+    height: 50px;
+}
+
+#test-default-text
+{
+    cursor: text;
+}
+
+#test-custom
+{
+    cursor: url("thumb-up.png");
+}
+
+#test-hotspot
+{
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+#test-hotspot *
+{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#test-hotspot #child-center
+{
+    flex: 1;
+    cursor: url("thumb-up.png") 12 12;
+    background-color: #04500C;
+}
+
+#test-hotspot #child-bottom-right
+{
+    flex: 1;
+    cursor: url("thumb-up.png") 24 24;
+    background-color: #B5B316;
+}
+
+#test-parent
+{
+    justify-content: center;
+    align-items: center;
+    cursor: fps;
+}
+
+#test-parent #child
+{
+    width: 180px;
+    height: 100px;
+    background-color: #04500C;
+}
+
+#test-stack
+{
+    justify-content: center;
+    align-items: center;
+    cursor: fps;
+}
+
+#test-stack #child1
+{
+    width: 160px;
+    height: 180px;
+    background-color: #04500C;
+    justify-content: center;
+    align-items: center;
+    cursor: text;
+}
+
+#test-stack #child2
+{
+    width: 120px;
+    height: 120px;
+    background-color: #B5B316;
+    justify-content: center;
+    align-items: center;
+    cursor: url("thumb-up.png");
+}
+
+#test-stack #child3
+{
+    width: 60px;
+    height: 60px;
+    background-color: #B56416;
+    justify-content: center;
+    align-items: center;
+    cursor: pan;
+}
+
+#test-siblings
+{
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    cursor: fps;
+}
+
+#test-siblings *
+{
+    height: 60px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#test-siblings #child1
+{
+    margin-top: 50px;
+    background-color: #04500C;
+    cursor: text;
+}
+
+#test-siblings #child2
+{
+    background-color: #B5B316;
+    cursor: url("thumb-up.png");
+}
+
+#test-siblings #child3
+{
+    background-color: #B56416;
+    cursor: pan;
+}
